@@ -1,4 +1,7 @@
 #include "../include/credis_common.h"
+#include <cstdio>
+#include <ctime>
+#include <cstdarg>
 
 void logger(const char* level, const char* format, ...) {
     time_t now;
